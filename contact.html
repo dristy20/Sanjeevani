@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevani</title>
+    <link rel="Stylesheet" href="public/CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Rubik:wght@300&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="Sub-header">
+     <nav>
+         <a href="Index.html">
+            <img src="public/images/logo1.png"> </a>
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                   <li> <a href="Index.html">Home</a>  </li>
+                   <li> <a href="about.html">About</a>  </li>
+                   <li> <a href="facility.html">Facility</a>  </li>
+                   <li> <a href="blog.html">Blog</a>  </li>
+                   <li> <a href="contact.html">Contact</a>  </li>
+                   <li><a href="donation.html">Donation</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Contact Us</h1>
+
+ </section>
+
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8974966967708!2d72.82020424972139!3d19.41683434615343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a94414375ccf%3A0x36f677d66ea6957b!2sSaidham%20Nursing%20Home!5e0!3m2!1sen!2sin!4v1626844505757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-column">
+         <div>
+            <i class="fa fa-home"></i> 
+            <span>
+                <h5> XYZ road, ABC Building </h5>
+                <p> North Mumbai,India</p>
+            </span>
+         </div>
+         <div>
+            <i class="fa fa-phone"></i> 
+            <span>
+             <h5>34583987299</h5>
+                <p> Monday to Saturday 10am to 10pm </p>
+            </span>
+         </div>
+         <div>
+            <i class="fa fa-envelope-o"></i> 
+            <span>
+                <h5>info@distybelel2001gmail.com </h5>
+                 <p> Email Us Your Query</p>
+            </span>
+         </div>
+
+        </div>
+        
+        <div class="contact-column">
+            <h3>Drop Your Review</h3>
+          <form action="/contact" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your @Email" required>
+            <input name="message" placeholder="Drop Your Meassage" rows="8" required>
+            <button type="submit" class="hero-btn blue-btn">Submit</button>
+        </form>
+        </div>
+
+    </div>
+    </script>
+</section>
+
+
+<!------------------------Footer----------------------->
+
+<section class="foot">
+<h4>About Us</h4>
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,<br> looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites </p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-quora"></i>
+    <i class="fa fa-twitter-square"></i>
+    <i class="fa fa-telegram"></i>
+</div>
+<p>Made By <i class="fa fa-code" ></i> Dristy Belel</p>
+
+</section>
+
+<!--Javascript for toggle menu-->
+<!--this is to click on event on menu-->    
+<script>
+    
+    var navlinks= document.getElementById("navlinks");
+    function showMenu() {
+        navlinks.style.right= "0";
+    }
+    function hideMenu() {
+        navlinks.style.right= "-200px";
+    }
+    
+</script>
+
+
+</body>
+</html>

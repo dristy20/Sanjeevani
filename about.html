@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevani</title>
+    <link rel="Stylesheet" href="public/CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Rubik:wght@300&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="Sub-header">
+     <nav>
+         <a href="Index.html">
+            <img src="public/images/logo1.png"> </a> 
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li> <a href="Index.html">Home</a>  </li>
+                <li> <a href="about.html">About</a>  </li>
+                <li> <a href="facility.html">Facility</a>  </li>
+                <li> <a href="blog.html">Blog</a>  </li>
+                <li> <a href="contact.html">Contact</a>  </li>
+                <li><a href="donation.html">Donation</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Know More About Us</h1>
+
+ </section>
+
+ <!--------------------Content--------------->
+ <section class="about-us">
+     <div class="row">
+         <div class="about-column">
+            <h1> Here we treat patients throught meditation also. </h1> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
+            <br>Hurry up to take your seat here.... take appointment for spiritual session as soon as possible.</p>
+            <a href="spiritual.html" class="hero-btn blue-btn"> <strong>Spiritual Session</strong></a>
+        </div>
+         <div class="about-column">
+              <img src="public/images/vatika.jpg">
+        </div>
+     </div>
+ </section>
+
+
+<!------------------------Footer----------------------->
+
+<section class="foot">
+<h4>About Us</h4>
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,<br> looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites </p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-quora"></i>
+    <i class="fa fa-twitter-square"></i>
+    <i class="fa fa-telegram"></i>
+</div>
+<p>Made By <i class="fa fa-code" ></i> Dristy Belel</p>
+
+</section>
+
+<!--Javascript for toggle menu-->
+<!--this is to click on event on menu-->    
+<script>
+    
+    var navlinks= document.getElementById("navlinks");
+    function showMenu() {
+        navlinks.style.right= "0";
+    }
+    function hideMenu() {
+        navlinks.style.right= "-200px";
+    }
+    
+</script>
+</body>
+</html>
